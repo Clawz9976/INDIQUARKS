@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybernetic Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cybernetic Hub</h1>
+        <p>A place for everyone to get into the world to cyber security!</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Select a Malware to Learn More</h2>
+            <select id="malware-dropdown" onchange="showMalwareInfo()">
+                <option value="">Choose a Malware...</option>
+                <option value="malware1">Trojan Horse</option>
+                <option value="malware2">Ransomware</option>
+                <option value="malware3">Spyware</option>
+                <option value="malware4">Worm</option>
+                <option value="malware5">Adware</option>
+                <option value="malware6">Rootkit</option>
+                <option value="malware7">Botnet</option>
+                <option value="malware8">Keylogger</option>
+                <option value="malware9">Phishing</option>
+                <option value="malware10">Cryptojacking</option>
+            </select>
+        </section>
+
+        <section id="malware-info">
+            <h2>Malware Information</h2>
+            <p>Select a malware from the dropdown to learn more about it.</p>
+        </section>
+
+        <section>
+            <button onclick="window.location.href='tech-guide.html'">Want to get into Cyberspace?</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; worked on by: Dhruva, Abhiram, Harshitha, Amarnath</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

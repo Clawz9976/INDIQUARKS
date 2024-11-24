@@ -1,0 +1,121 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    color: #f4f4f4; /* Light text color for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #333; /* Dark header background */
+    color: #f4f4f4; /* White text */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em; /* Larger heading for emphasis */
+    letter-spacing: 2px; /* Slight spacing between letters for modern look */
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2.2em;
+    color: #f4f4f4;
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+/* Dropdown Selection Box */
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #333;
+    color: #f4f4f4;
+    border: 1px solid #800000;
+    border-radius: 8px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+select:hover {
+    background-color: #666; /* Slight hover effect */
+}
+
+/* Info Box for Malware Details */
+.malware-info {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    color: #ddd;
+    font-size: 1.2em;
+    line-height: 1.7;
+    text-align: left;
+}
+
+.malware-info h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.malware-info p {
+    margin-bottom: 10px;
+}
+
+/* Buttons Styling */
+button {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 15px 25px;
+    background-color: #800000; /* Maroon color */
+    color: #f4f4f4; /* Light text color */
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #a60000; /* Lighter maroon on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #f4f4f4;
+    margin-top: 20px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Guide Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tech Guide Hub</h1>
+        <p>Your guide to mastering Linux, GitHub, and Kali Linux tools!</p>
+    </header>
+
+    <main>
+        <nav>
+            <!-- Spaced and styled buttons -->
+            <button class="nav-button" onclick="showSection('linuxSetup')">How to Setup a Linux Machine</button>
+            <button class="nav-button" onclick="showSection('kaliSetup')">How to Setup Kali Linux</button>
+            <button class="nav-button" onclick="showSection('createGithub')">How to Create a GitHub Repository</button>
+            <button class="nav-button" onclick="showSection('githubAmenities')">Basic Amenities in GitHub</button>
+            <button class="nav-button" onclick="showSection('kaliTools')">Basic Kali Linux Tools & Applications</button>
+            <button class="nav-button" onclick="redirectToIndiquarks()">Check out our INDIQUARKS(beta) project to learn more!!!</button>
+
+        </nav>
+
+        <section id="content">
+            <h2>Welcome!</h2>
+            <p>Select a topic from the menu to get started.</p>
+        </section>
+    </main>
+
+    <script src="tech-guide.js"></script>
+</body>
+</html>
