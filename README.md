@@ -1,109 +1,105 @@
-# INDIQUARKS: Cybersecurity Information and Trivia Program
-
-**INDIQUARKS** is a simple console-based program written in C that provides users with various cybersecurity-related resources and a trivia quiz to test their knowledge. The program is interactive and offers four main options:
-
-1. **Latest News in Cyberspace** - Displays links to recent cybersecurity news.
-2. **Trivia Time** - A quiz where users can answer cybersecurity-related questions and receive a score based on their performance.
-3. **Cybersecurity Courses** - Provides links to free and premium online cybersecurity courses.
-4. **Live Cyber Events** - Displays links to current and upcoming cybersecurity conferences and events.
-
-## Features
-
-- **Latest Cybersecurity News**: Opens multiple web links to news websites such as The Hacker News, Krebs on Security, and others.
-- **Trivia Quiz**: Users can answer multiple-choice questions to test their cybersecurity knowledge.
-- **Cybersecurity Courses**: Provides links to free and paid cybersecurity courses available on popular platforms.
-- **Live Cybersecurity Events**: Opens links to cybersecurity conferences such as DEFCON, Black Hat, and others.
-
-## Requirements
-
-To run this program, you need the following:
-
-- A C compiler (e.g., GCC, MinGW).
-- A terminal or command prompt for interaction.
-- Internet access (for opening URLs using the `system()` function).
-
-## How to Run
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/yourusername/INDIQUARKS.git
-   cd INDIQUARKS
-   ```
-
-2. **Compile the code**:
-   
-   Using GCC:
-
-   ```bash
-   gcc -o INDIQUARKS INDIQUARKS.c
-   ```
-
-3. **Run the program**:
-
-   On Windows:
-
-   ```bash
-   INDIQUARKS.exe
-   ```
-
-   On Linux/Mac:
-
-   ```bash
-   ./INDIQUARKS
-   ```
-
-## Usage
-
-Once the program is running, you will be presented with a menu of options:
-
-1. **Latest news in the cyberspace**: Displays the latest cybersecurity-related news articles by opening the URLs in the default browser.
-2. **Trivia Time!!**: Starts the trivia quiz. You can answer the multiple-choice questions by typing the letter corresponding to your choice (A, B, C, or D).
-3. **Try learning cybersecurity courses**: Opens links to various online courses related to cybersecurity.
-4. **Links to live cyber events**: Opens links to live cybersecurity events and conferences.
-5. **Exit**: Exits the program.
-
-### Example:
-
-```
-Please choose an option:
-1) Latest news in the cyberspace
-2) Trivia Time!!
-3) Try learning cyber security course (give links)
-4) Links to live cyber events
-5) Exit
-Enter your choice: 2
-Starting trivia quiz!
-What does 'HTTP' stand for?
-A) HyperText Transfer Protocol
-B) High Text Transfer Protocol
-C) Hyperlink Transfer Protocol
-D) None of the above
-Your answer: A
-...
-Your score: 8 out of 10
-```
-
-## Code Explanation
-
-- **showLatestNews()**: Displays the latest cybersecurity news and opens news websites in the browser.
-- **runTriviaQuiz()**: Starts the trivia quiz, asks 10 questions (randomly chosen), checks answers, and keeps track of the user's score.
-- **showCyberSecurityCourseLinks()**: Opens links to online courses where users can learn more about cybersecurity.
-- **showLiveCyberEvents()**: Opens links to live cybersecurity events and conferences.
-- **main()**: The main function that displays a menu and executes the corresponding option based on user input.
-
-## Notes
-
-- This program uses `system("start URL")` to open URLs in the default web browser, which works on Windows. If you're using Linux or macOS, you may need to modify the `system` command to use `xdg-open` or `open` respectively.
-- The trivia questions are pre-defined in the code and consist of multiple-choice questions related to cybersecurity.
-  
-## Contributing
-
-If you would like to contribute to this project, feel free to fork the repository, create a new branch, and submit a pull request with your changes. All contributions are welcome!
-
+### **Cybernetic Hub**  
+*Your guide to mastering Linux, GitHub, and cybersecurity tools!*
 
 ---
 
-Happy learning and stay secure! 🚀🔐
+## **Overview**  
+The **Cybernetic Hub** is an interactive website designed to educate users about cybersecurity threats, Linux tools, and best practices for online safety. This project consists of two pages:  
+
+1. **Home Page**:
+   - Features information about 10 different types of malware.
+   - Allows users to select a malware from a dropdown menu to view detailed descriptions.
+   - Includes a button that redirects users to the second page for more technical tutorials.  
+
+2. **Tech Guide Page**:
+   - Provides tutorials and tips on:
+     - Setting up Linux and Kali Linux.
+     - Using GitHub effectively.
+     - Exploring basic tools in Kali Linux.
+   - Includes interactive buttons to display each topic.
 
 ---
+
+## **Features**  
+
+### **Home Page**  
+- Dropdown menu with 10 malware options:
+  - **Trojan Horse**, **Ransomware**, **Spyware**, **Worm**, **Adware**, **Rootkit**, **Botnet**, **Keylogger**, **Phishing**, and **Cryptojacking**.  
+- Brief descriptions of each malware, dynamically displayed upon selection.  
+- A call-to-action button to redirect users to the **Tech Guide Page**.  
+
+### **Tech Guide Page**  
+- Buttons to display tutorials on various topics:
+  - **Setting up Linux Machines**  
+  - **Installing Kali Linux**  
+  - **Creating GitHub Repositories**  
+  - **Understanding GitHub Amenities**  
+  - **Learning Basic Kali Linux Tools**
+- A maroon color scheme for buttons with hover effects.  
+
+---
+
+## **Tech Stack**  
+
+1. **HTML**: Structure of the webpages.  
+2. **CSS**: Styling to make the pages visually appealing (dark theme with maroon accents).  
+3. **JavaScript**: Interactivity for displaying dynamic content based on user actions.  
+
+---
+
+## **Folder Structure**  
+
+```plaintext
+Cybernetic-Hub/
+│
+├── index.html          # Home Page (Malware Info)
+├── tech-guide.html     # Tech Guide Page (Linux & GitHub Tutorials)
+├── styles.css          # Shared CSS for both pages
+├── scripts.js          # JavaScript for interactive functionality
+└── README.md           # Project documentation
+```
+
+---
+
+## **How to Run**  
+
+1. Clone this repository to your local machine:  
+   ```bash
+   git clone https://github.com/<your-username>/Cybernetic-Hub.git
+   cd Cybernetic-Hub
+   ```
+
+2. Open `index.html` in any modern web browser to view the **Home Page**.  
+
+3. From the **Home Page**, explore malware information or click the **Want to get into Cyberspace?** button to navigate to the **Tech Guide Page**.  
+
+---
+
+## **License**  
+This project is open-source and available under the MIT License. Feel free to fork, modify, and share it.
+
+---
+
+## **Contributing**  
+1. Fork the repository.  
+2. Create a feature branch:  
+   ```bash
+   git checkout -b feature/your-feature
+   ```  
+3. Commit your changes:  
+   ```bash
+   git commit -m "Add your message"
+   ```  
+4. Push to the branch:  
+   ```bash
+   git push origin feature/your-feature
+   ```  
+5. Submit a pull request.  
+
+---
+
+## **Author**  
+(https://github.com/Clawz9976) Dhruva
+Abhiram
+Harshitha
+Amarnath
